@@ -11,7 +11,7 @@
                     <div class="col"><a class="btn btn-primary float-right btn-sm" onclick="window.print()"><i class="fas fa-print"></i> Print</a>
                         <a href="{{ URL::previous() }}" class="btn btn-success float-right btn-sm"><i class="fas fa-arrow-left"></i> Back</a>
                     </div>
-                    </div>                 
+                    </div>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -45,12 +45,12 @@
                                     <td width="38%">Total</td>
                                     <td width="2%">:</td>
                                     <td width="60%">{{$transaksi->total}}</td>
-                                </tr>   
+                                </tr>
                                 <tr>
                                     <td width="38%">Customer</td>
                                     <td width="2%">:</td>
                                     <td width="60%">Take Away Customer</td>
-                                </tr>                   
+                                </tr>
                             </table>
                         </div>
                     </div>
@@ -72,10 +72,10 @@
                                             <td>{{$item->qty}}</td>
                                         </tr>
                                     @endforeach
-                                </tbody>                               
+                                </tbody>
                             </table>
                         </div>
-                    </div>                  
+                    </div>
                 </div>
             </div>
     </div>

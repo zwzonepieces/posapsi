@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="img/logo.png" type="image/png">
 
-        <title>POS BSI</title>
+        <title>POS UBSI</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
-                
+
             }
 
             .full-height {
@@ -89,7 +89,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    
+
                 </div>
 
                 <div class="links">

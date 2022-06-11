@@ -15,7 +15,7 @@
                                 <select name="" id="" class="form-control from-control-sm" style="font-size: 12px">
                                     <option value="" holder>Filter Category</option>
                                     <option value="1">All Category...</option>
-                                    
+
                                 </select>
                             </div>
                             <div class="col"><input type="text" name="search"
@@ -74,7 +74,7 @@
                             <select name="" id="" class="form-control from-control-sm" style="font-size: 13px">
                                 <option value="1">Take Away Customer</option>
                                 <option value="" holder>Other Customer...</option>
-                                
+
                             </select>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                             <th width="40%" class="text-right">Rp.
                                 {{ number_format($data_total['sub_total'],2,',','.') }} </th>
                         </tr>
-            
+
                         <tr>
                             <th>Total</th>
                             <th class="text-right font-weight-bold">Rp.
@@ -159,7 +159,7 @@
                         <div class="col-sm-4">
                             <a class="btn btn-primary btn-lg btn-block"
                                 style="padding:1rem!important" href="{{url('/transcation/history')}}" target="_blank">History</a>
-                            
+
                         </div>
                         <div class="col-sm-4">
                             <button class="btn btn-success btn-lg btn-block" style="padding:1rem!important"
@@ -180,7 +180,7 @@
 
             <div class="modal-content">
                 <div class="modal-header indigo">
-                    <h6 class="modal-title w-100 text-light" id="myModalLabel">Billing Information</h6>
+                    <h6 class="modal-title w-100 text-light" id="myModalLabel">Bill Belanja</h6>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -216,7 +216,7 @@
                     <h3 class="font-weight-bold text-primary">Kembalian:</h3>
                     <h1 class="font-weight-bold text-primary" id="kembalian"></h1>
                 </div>
-                
+
                 <div class="modal-footer justify-content-center">
                     <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-primary" id="saveButton" disabled onClick="openWindowReload(this)">Simpan Transaksi</button>
@@ -273,7 +273,7 @@
                 ',00';
 
             cek(bayar, jumlah);
-            const saveButton = document.getElementById("saveButton");   
+            const saveButton = document.getElementById("saveButton");
 
             if(jumlah === 0){
                 saveButton.disabled = true;
@@ -282,7 +282,7 @@
         };
 
         function cek(bayar, jumlah) {
-            const saveButton = document.getElementById("saveButton");   
+            const saveButton = document.getElementById("saveButton");
 
             if (bayar < jumlah) {
                 saveButton.disabled = true;

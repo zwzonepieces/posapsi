@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="card" style="min-height: 85vh">
                 <div class="card-header bg-white font-weight-bold">Point Of Sale
-                    
+
                 </div>
 
                 <div class="card-body">
@@ -16,7 +16,7 @@
                         </div>
                     @endif
 
-                    Anda berhasil login!
+                    Anda berhasil masuk!
                 </div>
             </div>
         </div>
